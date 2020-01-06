@@ -52,10 +52,17 @@
     background-color: #ddf542;
 }
 
+.completed {
+  background-color: #91f6fa;
+}
+
 .completed:hover {
     background-color: #4293f5;
 }
 
+.removed {
+  background-color: #fa91bd;
+}
 .removed:hover {
     background-color: #f54242;
 }
