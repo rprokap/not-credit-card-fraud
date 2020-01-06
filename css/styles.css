@@ -42,6 +42,7 @@
     text-indent: 10px;
     font-size: 20px;
     border: 2px solid;
+    background-color: #bdf2db;
 }
 
 .priority {
@@ -68,6 +69,7 @@
 }
 
 #inpTable {
+    background-color: white;
     width: 90%;
     margin-top: 20px;
 }
@@ -87,7 +89,7 @@
     height: 40px;
     width: 90%;
     border: 2px solid;
-    background-color: white;
+    background-color: #bddaf0;
 }
 
 #inp:hover {
