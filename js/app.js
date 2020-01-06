@@ -120,7 +120,7 @@ const imp2Do = function() {
     prioritized = true;
   } else if (twoDo[i].prioritized) {
     const nonImp2Do = elements[i];
-    priority[i].style.backgroundColor = "#ffffff";
+    priority[i].style.backgroundColor = "#f7dc8f";
     elements[elements.length - 1].after(nonImp2Do);
     twoDo[i].prioritized = false;
     const firstToDo = twoDo[i];
