@@ -46,7 +46,7 @@ function creditFunc() {
         setTimeout(function(){ window.location.href = 'main.html'; }, 1000);
       } else if (cardLength >= 13 && cardLength <= 16 && cardNumber.charAt(0) == "4") {
         document.getElementById("inp2").innerHTML = "thank you for your visa.";
-        setTimeout(function(){ window.location.href = 'main.html'; }, 1000);
+        setTimeout(function(){ window.location.href = 'main.html'; }, 1001);
       } else {
       document.getElementById("inp2").innerHTML = "please enter a valid number.";
       }
