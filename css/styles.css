@@ -1,6 +1,9 @@
 * {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   box-sizing: border-box;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .names {
@@ -9,4 +12,74 @@
 
 .credit {
   border: 2px solid black;
+}
+
+.table {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.priority, .completed, .removed {
+    width: 50px;
+    text-align: center;
+    border: 2px solid;
+}
+
+.priority, .removed {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inp {
+    text-indent: 10px;
+    font-size: 20px;
+    border: 2px solid;
+}
+
+.priority:hover {
+    background-color: #ddf542;
+}
+
+.completed:hover {
+    background-color: #4293f5;
+}
+
+.removed:hover {
+    background-color: #f54242;
+}
+
+#inpTable {
+    width: 90%;
+    margin-top: 20px;
+}
+
+#accInp {
+    display: block;
+    height: 48px;
+    width: 100%;
+    color: #303030;
+    font-size: 26px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#inp {
+    display: block;
+    height: 40px;
+    width: 90%;
+    border: 2px solid;
+    background-color: white;
+}
+
+#inp:hover {
+    background-color: #9dc4f2;
+}
+
+#inp:active {
+    background-color: #385980;
 }
