@@ -62,11 +62,8 @@ window.onload = function() {
 
 const add2Do = function() {
   let input = document.getElementById("accInp").value;
-  let inputLower = input.toLowerCase;
   if (input == "") {
       window.alert("nice! next time, try typing something!")
-  } else if (inputLower.includes("cookies") {
-      window.location.href = 'https://orteil.dashnet.org/cookieclicker/';
   } else {
     let toDoItem = {
       task: input, prioritized: false, completed: false, htmlRow: null,
