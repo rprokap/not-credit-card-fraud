@@ -24,21 +24,28 @@
     height: 40px;
 }
 
-.priority, .completed, .removed {
+.priority, .removed {
     width: 50px;
     text-align: center;
     border: 2px solid;
-}
-
-.priority, .removed {
     font-weight: bold;
     font-size: 25px;
+}
+
+.completed {
+  width: 50px;
+  text-align: center;
+  border: 2px solid;
 }
 
 .inp {
     text-indent: 10px;
     font-size: 20px;
     border: 2px solid;
+}
+
+.priority {
+  background-color: #f7dc8f;
 }
 
 .priority:hover {
